@@ -1,0 +1,4 @@
+/Users/zhigangwei/Desktop/hot_potato/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/zhigangwei/Desktop/hot_potato/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zhigangwei/Desktop/hot_potato/cmake-build-debug/CMakeFiles/ringmaster.dir
+/Users/zhigangwei/Desktop/hot_potato/cmake-build-debug/CMakeFiles/player.dir
