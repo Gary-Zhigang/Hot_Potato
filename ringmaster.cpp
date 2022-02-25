@@ -55,7 +55,7 @@ int main(int argc, char *argv[]) {
         recv(client_connection_fd[i], &ip_p, sizeof(ip_p), 0);
         ip_players[i] = ip_p;
         cout << "Player " << i << " is ready to play" << endl;
-        cout << "IP of this player: "<<ip_p<<endl;
+        //cout << "IP of this player: "<<ip_p<<endl;
     }
     /*------------------Send the next player's information-------------------*/
 

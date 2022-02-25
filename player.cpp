@@ -41,8 +41,8 @@ int main(int argc, char *argv[]) {
         string temp;
         temp = inet_ntoa(*(struct in_addr*)hp->h_addr_list[i]);
         strcpy(ip_players, temp.c_str());
-        printf("hostname: %s\n",hp->h_name);
-        printf("      ip: %s\n",ip_players);
+        //printf("hostname: %s\n",hp->h_name);
+        //printf("      ip: %s\n",ip_players);
         i++;
     }
 
@@ -60,7 +60,7 @@ int main(int argc, char *argv[]) {
     cout << "Connected as player " << id << " out of " << num_players << " total players"
          << endl;
 
-    /*--------------Receive the ip and port of the next player--------------*/
+    /*--------------Receive the IP and port of the next player--------------*/
 
     int port_next;
     char ip_next[200];

@@ -36,16 +36,6 @@ int startServer(const char *port, bool is_player) {
     host_info.ai_family = AF_UNSPEC;
     host_info.ai_socktype = SOCK_STREAM;
     host_info.ai_flags = AI_PASSIVE;
-    //Get the host name of the machine.
-//    if (is_player) {
-//        char hostname_player[200];
-//        if (gethostname(hostname_player, sizeof(hostname_player)) == -1) {
-//            cerr << "Error: cannot get hostname" << endl;
-//            exit(EXIT_FAILURE);
-//        }
-//        hostname = hostname_player;
-//        cout<<"Host name: "<<hostname<<endl;
-//    }
 
     status = getaddrinfo(hostname, port, &host_info, &host_info_list);
     if (status != 0) {
